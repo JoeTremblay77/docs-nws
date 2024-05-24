@@ -14,16 +14,16 @@ All requests must supply an API key. This key is a string value contained in the
 * For example, if the API key in the app.config was "abc123" then the request to the test endpoint would be: 
 
 ```cURL
-curl --location 'http://localhost:5002/<some-app-name>/api/test' --header 'x-api-key: abc123'
+curl --location 'http://localhost:5002/dealerlookupapp/api/test' --header 'x-api-key: abc123'
 ```
 
 ### API Endpoints Available
 
-** GET https://<someurl>/<some-app-name>/api/dealers **: Retrieves the dealers in a standard api response below. 
+** GET /api/dealers **: Retrieves the dealers in a standard api response below. 
 
-** GET https://<someurl>/<some-app-name>/api/dealers/forcefail **: A developer utility to create a fake failure response for testing. 
+** GET /api/dealers/forcefail **: A developer utility to create a fake failure response for testing. 
 
-** GET https://<someurl>/<some-app-name>/api/test **: A test endpoint for development to check that the x-api-key was supplied and is correct. 
+** GET api/test **: A test endpoint for development to check that the x-api-key was supplied and is correct. 
 
 
 ### Samples
