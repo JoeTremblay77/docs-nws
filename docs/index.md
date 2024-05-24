@@ -1,4 +1,4 @@
-# API Helper for NS
+# Dealer API for NWS
 
 A an API made available to applications that provide a valid API key and are permitted access through a firewall.  This application does not update data and only returns basic inventofy and pricing data. No personal identifiers are exposed.
 
