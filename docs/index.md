@@ -19,11 +19,11 @@ curl --location 'http://localhost:5002/dealerlookupapp/api/test' --header 'x-api
 
 ### API Endpoints Available
 
-** GET /api/dealers **: Retrieves the dealers in a standard api response below. 
+**GET /api/dealers**: Retrieves the dealers in a standard api response below. 
 
-** GET /api/dealers/forcefail **: A developer utility to create a fake failure response for testing. 
+**GET /api/dealers/forcefail**: A developer utility to create a fake failure response for testing. 
 
-** GET api/test **: A test endpoint for development to check that the x-api-key was supplied and is correct. 
+**GET api/test**: A test endpoint for development to check that the x-api-key was supplied and is correct. 
 
 
 ### Samples
