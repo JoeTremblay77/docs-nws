@@ -17,7 +17,7 @@ The API was purpose built to provide secure access to internal data from an outs
 
 ### API Key
 
-All requests must supply an API key. At any time, the key can be updated using the API configuration files. 
+All requests must supply an API key. Upon request, or if suspicious activity is detected, the key can be quickly updated using the API configuration file. 
 
 * Every request must supply an HTTP Header:   x-api-key
 * For example, if the API key was "abc123" then the request to the test endpoint would be: 
