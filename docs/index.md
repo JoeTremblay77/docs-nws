@@ -30,7 +30,7 @@ curl --location 'http://{TheWebsiteURLHere}/dealerlookupapp/api/test' --header '
 
 **GET /api/dealers**: Retrieves **all** of the dealers in a standard api response below. 
 
-**GET /api/dealers??item=&brand=&showUnitsOnly=true**: Retrieves a **filtered** list of the dealers in a standard api response below. Item and Brand use a 'Contains' style search.  If showUnitsOnly is not supplied, it will be defaulted to 'false'.
+**GET /api/dealers?item=&brand=&showUnitsOnly=true**: Retrieves a **filtered** list of the dealers in a standard api response below. Item and Brand use a 'Contains' style search.  If showUnitsOnly is not supplied, it will be defaulted to 'false'.
 
 **GET /api/dealers/forcefail**: A developer utility to create a fake failure response for testing. 
 
