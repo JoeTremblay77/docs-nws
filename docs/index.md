@@ -28,7 +28,9 @@ curl --location 'http://{TheWebsiteURLHere}/dealerlookupapp/api/test' --header '
 
 ### API Endpoints Available
 
-**GET /api/dealers**: Retrieves the dealers in a standard api response below. 
+**GET /api/dealers**: Retrieves **all** of the dealers in a standard api response below. 
+
+**GET /api/dealers?q=somefieldvalue**: Retrieves a **filtered** list of the dealers in a standard api response below. It searches the item number, description, brand, and manufacturers item number using a SQL '%<search value>%'. SQL injection has been handled. 
 
 **GET /api/dealers/forcefail**: A developer utility to create a fake failure response for testing. 
 
